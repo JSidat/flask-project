@@ -1,34 +1,36 @@
-from flask import render_template
-from application import app
+from application import app, db
+from flask import render_template, redirect, url_for
+from application.forms import PostForm
+from application.models import Workout
 
 
 @app.route('/')
 @app.route('/home')
 def home():
-    blogData = Posts.query.all()
-    return render_template('home.html', title='Home', posts=blogData)
+    postData =  Workout.query.all()
+    return render_template('home.html', title='Home', posts=postData)
 
 @app.route('/about')
 def about():
     return render_template('about.html', title='About')
 
-@app.route('/post')
-def post():
+@app.route('/workout')
+def workout():
     form = PostForm()
     if form.validate_on_submit():
-        postData =  Posts(
-                first_name = post.first_name.data,
-                last_name = post.last_name.data,
-                exercise = post.exercise.data,
-                maximum_lift = post.maximum_lift.data
-                notes = post.notes.data
+        postData =  Workout(
+                first_name = workout.first_name.data,
+                last_name = workout.last_name.data,
+                exercise_name = workout.exercise_name.data,
+                maximum_lift = workout.maximum_lift.data,
+                notes = workout.notes.data
             )
 
         db.session.add(postData)
         db.session.commit()
-
         return redirect(url_for('home'))
+
     else:
         print(form.errors)
-        return render_template('post.html', title='Post', form=form)
+        return render_template('workout.html', title='Workout', form=form)
             

@@ -1,5 +1,5 @@
 from flask_wtf import FlaskForm
-from wtforms import StringField, SubmitField
+from wtforms import StringField, IntegerField, SubmitField
 from wtforms.validators import DataRequired, Length
 
 
@@ -16,23 +16,23 @@ class PostForm(FlaskForm):
                 DataRequired(),
                 Length(min=2, max=30)
             ]
-        )
-    notes = StringField('Workout Notes',
-            validators = [
-                DataRequired(),
-                Length(min=2)
-            ]
-        )
-    exercise = StringField('Exercise',
+        )   
+    exercise_name = StringField('Exercise Name',
             validators = [
                 DataRequired()
             ]
         )
-    weight_lifted = StringField('Biggest Lift(kg)',
+    maximum_lift = IntegerField('Biggest Lift(kg)',
             validators = [
                 DataRequired()
             ]
         )
+    notes = StringField('workout notes',
+            validators = [
+                DataRequired()
+            ]
+        )
+
     submit = SubmitField('Post Workout')
 
 
