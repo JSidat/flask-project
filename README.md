@@ -51,3 +51,17 @@ be utilized to complete the project:
 * Version control: Git
 * CI server: Jenkins
 * Cloud server: GCP
+
+## Project Management
+ In this section I will be outlining the tools and methodologies used to keep on track with the project and cater for any changes that had to be made as the project progressed. Proper planning is imperative to make sure any unexpected occurences can be dealt with appropriately without negatively affecting the quality of the product.
+
+### Agile methodologies
+The agile methodology promotes thorough and constant communication ad breaking the project into several stages which arent dependant on each other in a linear fashion. This allows for flexibility when it comes to sudden changes to the project specification. The cycle of planning, executiing and evaluating that agile is based on, allows for top quality work to be produced in a timely manner.
+
+Being a solo project some of the principles and methodologies had to be adapted to cater for the independent nature of the project:
+
+* Individuals and interactions over processes and tool: this didnt apply to me as the project was a solo project. However we still conducted morning briefs and daily stand-ups to gain a good understanding of whatwas required on a daily basis.
+
+
+
+
