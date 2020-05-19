@@ -1,6 +1,7 @@
 from application import db
 
 
+
 class Workout(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     first_name = db.Column(db.String(30), nullable=False)
@@ -15,7 +16,6 @@ class Workout(db.Model):
          'User: ', self.first_name, ' ', self.last_name, '\r\n',
          'Exercise: ', self.exercise_name, '\r\n', self.maximum_lift, 'kg',
          'Notes: ', self.notes
-
          ])
 
 class Exercises(db.Model):
