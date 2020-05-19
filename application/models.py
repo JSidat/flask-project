@@ -22,6 +22,11 @@ class Exercises(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     exercise_name = db.Column(db.String(20), nullable=False)
 
+    def __repr__(self):
+        return ''.join([
+            'Exercise: ', self.exercise_id, self.exercise_name
+        ])
+
 class Exercise(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     workout_id = db.Column(db.Integer, db.ForeignKey('workout.id'))
@@ -29,7 +34,7 @@ class Exercise(db.Model):
 
     def __repr__(self):
         return ''.join([
-            'Exercise: ', self.exercise_id, ' ', self.workout_id, '\r\n', self.exercise_name
+            'Exercise: ', self.exercise_id, self.workout_id, '\r\n', self.exercise_name
         ])
 
 
