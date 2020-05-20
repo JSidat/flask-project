@@ -67,3 +67,13 @@ def update_post(post_id):
     return render_template('add_workout.html', title='Update Post',
                             form=form, legend = 'Update Post')
 
+
+@app.route('/post/<post_id>/delete', methods=['GET', 'POST'])
+def delete_post(post_id):
+    post = Workout.query.get_or_404(post_id)
+    db.session.delete(post)
+    db.session.commit()
+    flash('Your workout has been deleted!', 'success')
+    return redirect(url_for('home'))
+
+
