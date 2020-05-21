@@ -12,6 +12,7 @@
 
 
 
+
 ## Introduction
 
 The purpose of this project was to create a 'CRUD' application whilst utilising the tools tools, methodologies and technologies that 
@@ -63,7 +64,5 @@ The agile methodology promotes thorough and constant communication ad breaking t
 Being a solo project some of the principles and methodologies had to be adapted to cater for the independent nature of the project:
 
 * Individuals and interactions over processes and tool: this didnt apply to me as the project was a solo project. However we still conducted morning briefs and daily stand-ups to gain a good understanding of whatwas required on a daily basis.
-
-
 
 
