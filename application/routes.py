@@ -1,7 +1,7 @@
 from application import app, db
 from flask import render_template, redirect, url_for, flash
 from application.forms import PostForm
-from application.models import Workout
+from application.models import Workout, Exercises
 
 
 @app.route('/')
@@ -17,14 +17,21 @@ def about():
 def add_workout():
     form = PostForm()
     if form.validate_on_submit():
+        print('------------------------------', form.exercise_name.data, '------------------------------')
+        if form.exercise_name.data == 'Back squat':
+            exercise_num = 1
+        elif form.exercise_name.data == 'Deadlift':
+            exercise_num = 2
+        elif form.exercise_name.data == 'Bench press':
+            exercise_num = 3        
         postData =  Workout(
                 first_name = form.first_name.data,
-                last_name = form.last_name.data,
-                exercise_name = form.exercise_name.data,
+                last_name = form.last_name.data,                
+                exercise_id = exercise_num,
                 maximum_lift = form.maximum_lift.data,
                 notes = form.notes.data
             )
-
+              
         db.session.add(postData)
         db.session.commit()
         return redirect(url_for('workouts'))

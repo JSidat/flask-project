@@ -5,7 +5,7 @@
 
 * [Introduction](#Introduction)
 * [Project Scope](#Project-Scope)
-* 
+* [Technology constraints](#Technology-constraints)
 
 
 
@@ -15,28 +15,25 @@
 
 ## Introduction
 
-The purpose of this project was to create a 'CRUD' application whilst utilising the tools tools, methodologies and technologies that 
-were taught in the modules in this Enable DevOps course.
+The purpose of this project was to create a 'CRUD' application whilst utilising the tools tools, methodologies and technologies that were taught in the modules in this Enable DevOps course.
 
 
 ## Project Scope
 
 The scope of the project outlines the minimum requirements to successfully complete the project and assesses our development against SFIA.
-Thw minimum requirements for the project are outlined as follows:
+The minimum requirements for the project are outlined as follows:
 
-* Project Tracking via a kanban style board such as trello that identifies the user story, use cases and progression of the project over a
-period of time.
+* Project Tracking via a kanban style board such as trello that identifies the user story, use cases and progression of the project over a period of time.
 
 * A relational database containing a minumum of two tables with some sort of relationship to store data generated in the application. 
 
 * Documentation showing the structure of the project and as well as a risk assessment.
 
-* A functional CRUD application developed in python followign best practices.
+* A functional CRUD application developed in python following best practices.
 
-* Fully comprehensive test suite with high test coverage of the back end with reports and evidence of testing results. Also needs to 
-  include automated validation testing for the application.
+* Fully comprehensive test suite with high test coverage of the back end with reports and evidence of testing results. Also needs to include automated validation testing for the application.
   
-* A functioning fornt-end website that has full CRUD functionality.
+* A functioning front-end website that has full CRUD functionality.
 
 * Use of github as the version control system using the feauture-branch model to fully integrate the code for the application.
 
@@ -49,7 +46,6 @@ be utilized to complete the project:
 * GCP SQL database
 * Programming language: Python
 * Unit testing: Pytest
-* Integration testing: Selenium
 * Front-end: Flask(HTML)
 * Version control: Git
 * CI server: Jenkins
@@ -64,5 +60,21 @@ The agile methodology promotes thorough and constant communication ad breaking t
 Being a solo project some of the principles and methodologies had to be adapted to cater for the independent nature of the project:
 
 * Individuals and interactions over processes and tool: this didnt apply to me as the project was a solo project. However we still conducted morning briefs and daily stand-ups to gain a good understanding of whatwas required on a daily basis.
+
+* Working software over comprehensvie documentation: The purpose of the SFIA1 project is to test our porgramming skills and we were ultiamtely being tested on how well our applications worked and if they met the requirements set out in the project scope.
+
+* Customer collaboration over contract negotiations: This part was not really applicable but I made the project with an intended end user in my mind, as shown through user stories.
+
+* Responding to change over follwoing the plan: The direction my project went in was a slightly different to what I intended at the start but careful planning allowed me make these changes without affecting my overall performance.
+
+### Kanban Board
+
+A kanban style board was used to plan the project and layout my user stories and tasks. At the academy, we were introduced to the Trello board as a tool to plan the project, so this was the project planning tool that was used throughout the project.  
+
+User stories are defined on the board. A product backlog based on these user stories is created from which tasks are created and completed with an ultimate objective of meeting the requirements set out in the user stories by adding all the relevant functionality and features. The board allows you to slide tasks form left to right as you start, progress and complete it and gives you a visual representation of your tasks and progress.
+
+My definition of 'done' was the correct implementation of a feature or function where the feauture ran without any bugs or issues and added the fucntionality that it was intended for.
+
+
 
 
