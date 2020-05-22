@@ -9,12 +9,13 @@ sudo apt install python3-pip -y
 sudo apt install python3-venv -y
  
 python3 -m venv venv
- 
-cd /var/lib/jenkins/workspace/flask_project
+
+source ~/.bashrc
  
 source /var/lib/jenkins/workspace/flask_project/venv/bin/activate
  
 pip3 install -r requirements.txt
- 
+
+cd /var/lib/jenkins/workspace/flask_project
  
 gunicorn --bind=0.0.0.0:5000 application:app
