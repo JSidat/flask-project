@@ -1,5 +1,5 @@
 from application import app, db
-from flask import render_template, redirect, url_for, flash
+from flask import render_template, redirect, url_for
 from application.forms import PostForm
 from application.models import Workout, Exercises
 
@@ -17,7 +17,6 @@ def about():
 def add_workout():
     form = PostForm()
     if form.validate_on_submit():
-        print('------------------------------', form.exercise_name.data, '------------------------------')
         if form.exercise_name.data == 'Back squat':
             exercise_num = 1
         elif form.exercise_name.data == 'Deadlift':
@@ -58,17 +57,22 @@ def update_post(post_id):
     post = Workout.query.get_or_404(post_id)
     form = PostForm()
     if form.validate_on_submit():
+        if form.exercise_name.data == 'Back squat':
+            exercise_num = 1
+        elif form.exercise_name.data == 'Deadlift':
+            exercise_num = 2
+        elif form.exercise_name.data == 'Bench press':
+            exercise_num = 3
         post.first_name = form.first_name.data
         post.last_name = form.last_name.data
-        post.exercise_name = form.exercise_name.data
+        post.exercise_name = form.exercise_name
         post.maximum_lift = form.maximum_lift.data
         post.notes = form.notes.data
         db.session.commit()
-        flash('Your workout has been updated!', 'success')
-        return redirect(url_for('post', post_id=post.id))     
+        return redirect(url_for('workouts', post_id=post.id))     
     form.first_name.data = post.first_name
     form.last_name.data = post.last_name
-    form.exercise_name.data = post.exercise_name
+    form.exercise_name.data = post.exercises.exercise_name
     form.maximum_lift.data = post.maximum_lift
     form.notes.data = post.notes 
     return render_template('add_workout.html', title='Update Post',
@@ -80,7 +84,6 @@ def delete_post(post_id):
     post = Workout.query.get_or_404(post_id)
     db.session.delete(post)
     db.session.commit()
-    flash('Your workout has been deleted!', 'success')
     return redirect(url_for('home'))
 
 
