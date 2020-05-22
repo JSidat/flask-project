@@ -17,7 +17,7 @@ class PostForm(FlaskForm):
                 Length(min=2, max=30)
             ]
         )   
-    exercise_name = SelectField('exercise_name', choices= ex)
+    exercise_name = SelectField('Exercise Name', choices= ex)
             
         
     maximum_lift = IntegerField('Biggest Lift(kg)',
@@ -25,7 +25,7 @@ class PostForm(FlaskForm):
                 DataRequired()
             ]
         )
-    notes = StringField('workout notes',
+    notes = StringField('Workout Notes',
             validators = [
                 DataRequired()
             ]

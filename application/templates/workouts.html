@@ -1,6 +1,6 @@
 {% extends 'layout.html' %}
 {% block body_content %}
-<h1>Workout log</h1>
+<h1>Workout Log</h1>
 {% for post in workout %}
     <div>
                 <h2><a class='post-title' href='{{ url_for('post', post_id=post.id)}}'>Great Session {{ post.first_name}}!</a></h2>
