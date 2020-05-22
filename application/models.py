@@ -15,7 +15,7 @@ class Workout(db.Model):
     def __repr__(self):
      return ''.join([
          'User: ', self.first_name, ' ', self.last_name, '\r\n',
-         'Exercise: ', self.exercise_name, '\r\n', self.maximum_lift, 'kg',
+         'Exercise: ', self.exercise_id, '\r\n', self.maximum_lift, 'kg',
          'Notes: ', self.notes
          ])
 

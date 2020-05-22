@@ -129,6 +129,8 @@ class TestPosts(TestBase):
             response = self.client.get(url_for('delete_post', post_id = 1))
             follow_redirects = True
             self.assertEqual(Workout.query.count(), 0)
+
+
         
 
 
