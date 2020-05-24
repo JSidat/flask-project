@@ -6,6 +6,10 @@
 * [Introduction](#Introduction)
 * [Project Scope](#Project-Scope)
 * [Technology constraints](#Technology-constraints)
+* [Entity Relationship Diagrams](#Entity-Relationship-Diagrams)
+* [Risk Assessment](#Risk-Assessment)
+* [Deployment](#Deployment)
+* [Testing](#Testing)
 
 
 
@@ -73,7 +77,9 @@ A kanban style board was used to plan the project and layout my user stories and
 
 User stories are defined on the board. A product backlog based on these user stories is created from which tasks are created and completed with an ultimate objective of meeting the requirements set out in the user stories by adding all the relevant functionality and features. The board allows you to slide tasks form left to right as you start, progress and complete it and gives you a visual representation of your tasks and progress.
 
-My definition of 'done' was the correct implementation of a feature or function where the feauture ran without any bugs or issues and added the fucntionality that it was intended for.
+My definition of 'done' was the correct implementation of a feature or function where the feature ran without any bugs or issues and added the fucntionality that it was intended for.
+
+#### Initial Kanban Board
 
 
 
