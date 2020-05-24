@@ -81,6 +81,9 @@ My definition of 'done' was the correct implementation of a feature or function 
 
 #### Initial Kanban Board
 
+![Initial Kanban Board](https://github.com/JSidat/flask-project/blob/master/Screenshots/2020-05-21.png)
+
+
 
 
 
