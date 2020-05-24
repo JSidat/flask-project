@@ -88,6 +88,8 @@ For the intial Kanban board, a list was created that outlined the user stories f
 
 #### Final Kanban Board
 
+As the final Kanban board shows, the high priority jobs were completed which in turn meant the minimum requirements for the project were completed. The application had complete CRUD funtionality with a relational database to effectively store the relevant data from the application.
+
 ![Final Kanban Board](https://github.com/JSidat/flask-project/blob/master/Screenshots/2020-05-24.png)
 
 
