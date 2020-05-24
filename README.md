@@ -81,7 +81,14 @@ My definition of 'done' was the correct implementation of a feature or function 
 
 #### Initial Kanban Board
 
+For the intial Kanban board, a list was created that outlined the user stories for the project and the purpose for the productoin of the applcation. MoSCoW prioritisation was also used on the board. Anything marked with a red label was high priority and directly related to producing the minimum viable product, which in the grand scheme of things was the most important milestone to reach through the whole project. Marking these tasks allowed me focus on them and complete the minimum requirements for the project before moving onto other features and tasks.
+
 ![Initial Kanban Board](https://github.com/JSidat/flask-project/blob/master/Screenshots/2020-05-21.png)
+
+
+#### Final Kanban Board
+
+![Final Kanban Board](https://github.com/JSidat/flask-project/blob/master/Screenshots/2020-05-24.png)
 
 
 
