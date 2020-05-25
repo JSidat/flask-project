@@ -115,6 +115,36 @@ The risk assessement allows for planning of possible events that could occur tha
 
 ![Risk Assessment](https://github.com/JSidat/flask-project/blob/master/Screenshots/2020-05-25.png)
 
+### Unit testing
+
+Due to time constraints, only unit testing was carried out in the project. Pytest was used for unit testing. Tests were written to see if each page was accessible and tests were also written for each part of the CRUD functionality. The final coverage report showed that 89% coverage was achieved, with around 8 lines in the routes file unaccounted for. 
+
+![Unit testing](https://github.com/JSidat/flask-project/blob/master/Screenshots/2020-05-25%20(1).png)
+
+### Deployment
+
+A webhook was created on github that triggered the CI server Jenkins whenever anything was pushed up to github. Jenkins would then be able to deploy the app as a service. There was a slight issue with jenkins where the build would hang, but the app would still run. Whenever the build was successful, it would show an error message suggesting the secret key had not been exported even though the command to export the secret key was in the command shell on jenkins, so this is an issue that needs further investigation.
+
+#### CI pipeline
+
+![CI pipeline](https://github.com/JSidat/flask-project/blob/master/Screenshots/2020-05-25%20(2).png)
+
+### Areas for improvement
+
+Having had no previous experience in IT I wanted to focus all my attention on the modules that have been tsught over the last 5 weeks. As a result the front-end design was neglected, so this is an area of improvement. As my skills improve I would like to add some additional functionality to the website and look forward to working on it and developing it further. Further testing is necessary and integration testing could be carried out to see how all the different parts of the app work together as a whole. A few issues on the deployment side of things and jenkins need addressing as well. A user/login functionality would also work well on an app like this as it would me the app more personal and possibly customizable. 
+
+### Conclusion
+
+The project was thoroughly enjoyable and over the last 5 weeks, has given me a well-rounded perspective and understanding of how this sort of web application works and the importance of each component of the project. It has also showed me the tools required and how these tools work in synergy. The project management modules gave me a good understanding of the agile methodology and why it is beneficial in a DevOps environment, and where applicable, helped me to plan and deliver my project. The project as a whole was very enjoyable and challenging and gave me a small taste of the kind of mindset and work ethic required in this profession and I look forward to building on this foundation and continuing to challenge myself.
+
+### Acknowlegements
+
+I'd like to thank all the trainers who have taught me over the last 5 weeks for working tirelessly and being so receptive and patient with us and given us all the tools and information for us to complete the project.
+
+
+
+
+
 
 
 
