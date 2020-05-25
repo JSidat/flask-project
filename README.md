@@ -93,6 +93,25 @@ As the final Kanban board shows, the high priority jobs were completed which in 
 ![Final Kanban Board](https://github.com/JSidat/flask-project/blob/master/Screenshots/2020-05-24.png)
 
 
+### Entity Relationship Diagrams
+
+Entity relationship diagrams were used to plna and set out the databases for the project and show the type of relationships between the tables in the database. 
+
+#### Initial ERD
+
+My initial plan was to make an app that that had more than stored data of users, lists of exercises and their properties, list of workouts and their properties and all the set data from each exercise logged(number of sets, reps in a set, weight of each set.)
+
+![Initial ERD](https://github.com/JSidat/flask-project/blob/master/Screenshots/2020-05-24%20(3).png) 
+
+#### Final ERD
+
+As the project progressed, my idea evolved from being a bodybuilding app to a powerlifting app where the main difference was that each workout only has one exercise. As a result, my database did not require tables for sets and reps as powerlfiters are only interested in a 1 rep set of the maximum amount of weight they can lift. My final ER diagram contained a table to log workouts and a pre-populated table of exercises that the user can choose from via a drop down menu on the add workout page. 
+
+![Final ERD](https://github.com/JSidat/flask-project/blob/master/Screenshots/2020-05-24%20(2).png)
+
+
+
+
 
 
 
