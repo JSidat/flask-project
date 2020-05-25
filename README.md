@@ -10,6 +10,7 @@
 * [Risk Assessment](#Risk-Assessment)
 * [Deployment](#Deployment)
 * [Testing](#Testing)
+* [Conclusion](#Conclusion)
 
 
 
@@ -39,7 +40,7 @@ The minimum requirements for the project are outlined as follows:
   
 * A functioning front-end website that has full CRUD functionality.
 
-* Use of github as the version control system using the feauture-branch model to fully integrate the code for the application.
+* Use of github as the version control system using the feature-branch model to fully integrate the code for the application.
 
 ## Technology constraints
 
@@ -59,13 +60,13 @@ be utilized to complete the project:
  In this section I will be outlining the tools and methodologies used to keep on track with the project and cater for any changes that had to be made as the project progressed. Proper planning is imperative to make sure any unexpected occurences can be dealt with appropriately without negatively affecting the quality of the product.
 
 ### Agile methodologies
-The agile methodology promotes thorough and constant communication ad breaking the project into several stages which arent dependant on each other in a linear fashion. This allows for flexibility when it comes to sudden changes to the project specification. The cycle of planning, executiing and evaluating that agile is based on, allows for top quality work to be produced in a timely manner.
+The agile methodology promotes thorough and constant communication and breaking the project into several stages which are not dependant on each other in a linear fashion. This allows for flexibility when it comes to sudden changes to the project specification. The cycle of planning, executing and evaluating that agile is based on, allows for top quality work to be produced in a timely manner.
 
-Being a solo project some of the principles and methodologies had to be adapted to cater for the independent nature of the project:
+With this being a solo project some of the principles and methodologies had to be adapted to cater for the independent nature of the project:
 
-* Individuals and interactions over processes and tool: this didnt apply to me as the project was a solo project. However we still conducted morning briefs and daily stand-ups to gain a good understanding of whatwas required on a daily basis.
+* Individuals and interactions over processes and tool: This didnt apply as the project was a solo project. However we still conducted morning briefs and daily stand-ups to gain a good understanding of what was required on a daily basis and any issues that had occured on the previosu day.
 
-* Working software over comprehensvie documentation: The purpose of the SFIA1 project is to test our porgramming skills and we were ultiamtely being tested on how well our applications worked and if they met the requirements set out in the project scope.
+* Working software over comprehensvie documentation: The purpose of the SFIA1 project is to test our programming skills and we were ultimately being tested on how well our applications worked and if they met the requirements set out in the project scope.
 
 * Customer collaboration over contract negotiations: This part was not really applicable but I made the project with an intended end user in my mind, as shown through user stories.
 
@@ -75,13 +76,13 @@ Being a solo project some of the principles and methodologies had to be adapted 
 
 A kanban style board was used to plan the project and layout my user stories and tasks. At the academy, we were introduced to the Trello board as a tool to plan the project, so this was the project planning tool that was used throughout the project.  
 
-User stories are defined on the board. A product backlog based on these user stories is created from which tasks are created and completed with an ultimate objective of meeting the requirements set out in the user stories by adding all the relevant functionality and features. The board allows you to slide tasks form left to right as you start, progress and complete it and gives you a visual representation of your tasks and progress.
+User stories are defined on the board. A product backlog based on these user stories was created from which tasks were created and completed with an ultimate objective of meeting the requirements set out in the user stories by adding all the relevant functionality and features. The board allows you to slide tasks form left to right as you start, progress and complete them and gives you a visual representation of your tasks and progress.
 
 My definition of 'done' was the correct implementation of a feature or function where the feature ran without any bugs or issues and added the fucntionality that it was intended for.
 
 #### Initial Kanban Board
 
-For the intial Kanban board, a list was created that outlined the user stories for the project and the purpose for the productoin of the applcation. MoSCoW prioritisation was also used on the board. Anything marked with a red label was high priority and directly related to producing the minimum viable product, which in the grand scheme of things was the most important milestone to reach through the whole project. Marking these tasks allowed me focus on them and complete the minimum requirements for the project before moving onto other features and tasks.
+For the initial Kanban board, a list was created that outlined the user stories for the project and the purpose of the applcation. MoSCoW prioritisation was also used on the board. Anything marked with a red label was high priority and directly related to producing the minimum viable product, which in the grand scheme of things was the most important milestone to reach through the whole project. Marking these tasks allowed me focus on them and complete the minimum requirements for the project before moving onto other features and tasks.
 
 ![Initial Kanban Board](https://github.com/JSidat/flask-project/blob/master/Screenshots/2020-05-21.png)
 
@@ -95,7 +96,7 @@ As the final Kanban board shows, the high priority jobs were completed which in 
 
 ### Entity Relationship Diagrams
 
-Entity relationship diagrams were used to plna and set out the databases for the project and show the type of relationships between the tables in the database. 
+Entity relationship diagrams were used to plan and set out the databases for the project and show the type of relationships between the tables in the database. 
 
 #### Initial ERD
 
@@ -111,7 +112,7 @@ As the project progressed, my idea evolved from being a bodybuilding app to a po
 
 ### Risk Assessment
 
-The risk assessement allows for planning of possible events that could occur that negatively impact the project and stop someone from completing any part of a job. It outlines event or risks that could potentially occur whilst working on a project. It also briefly explains what the consequence of the risk would be. The deductions section of the risk assessment puts forward possible actions that can be taken to counter the risk and neutralise any issues the risk might cause. The outcome section is a follow up on deductions and tells us what we expect to happen if we carry put the correct precautionary measures to stop the risk from occurring. Each risk was plotted on a matrix where two factors were taken into account, the severity of the risk, and the likelihood of the risk occuring. Any risk that had a high possibility of occurence coupled with high severity would be plotted in the red area of the colour coded matrix. Any risk placed in the green is likely to be something that is tolerable and won't have huge negative impact on the project. 
+The risk assessement allows for planning of possible events that could occur that negatively impact the project and stop someone from completing any part of a job. It outlines event or risks that could potentially occur whilst working on a project. It also briefly explains what the consequence of the risk would be. The deductions section of the risk assessment puts forward possible actions that can be taken to counter the risk and neutralise any issues the risk might cause. The outcome section is a follow up on deductions and tells us what we expect to happen if we carry put the correct precautionary measures to stop the risk from occurring. Each risk was plotted on a matrix where two factors were taken into account, the severity of the risk, and the likelihood of the risk occurring. Any risk that had a high possibility of occurrence coupled with high severity would be plotted in the red area of the colour coded matrix. Any risk placed in the green is likely to be something that is tolerable and won't have huge negative impact on the project. 
 
 ![Risk Assessment](https://github.com/JSidat/flask-project/blob/master/Screenshots/2020-05-25.png)
 
