@@ -109,6 +109,11 @@ As the project progressed, my idea evolved from being a bodybuilding app to a po
 
 ![Final ERD](https://github.com/JSidat/flask-project/blob/master/Screenshots/2020-05-24%20(2).png)
 
+### Risk Assessment
+
+The risk assessement allows for planning of possible events that could occur that negatively impact the project and stop someone from completing any part of a job. It outlines event or risks that could potentially occur whilst working on a project. It also briefly explains what the consequence of the risk would be. The deductions section of the risk assessment puts forward possible actions that can be taken to counter the risk and neutralise any issues the risk might cause. The outcome section is a follow up on deductions and tells us what we expect to happen if we carry put the correct precautionary measures to stop the risk from occurring. Each risk was plotted on a matrix where two factors were taken into account, the severity of the risk, and the likelihood of the risk occuring. Any risk that had a high possibility of occurence coupled with high severity would be plotted in the red area of the colour coded matrix. Any risk placed in the green is likely to be something that is tolerable and won't have huge negative impact on the project. 
+
+![Risk Assessment](https://github.com/JSidat/flask-project/blob/master/Screenshots/2020-05-25.png)
 
 
 
