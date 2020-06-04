@@ -2,7 +2,7 @@
 Description=Flask-project
 [Service]
 User=jenkins
-ExecStart=/var/lib/jenkins/workspace/flask_project/Script/after-installation.sh
+ExecStart=/var/lib/jenkins/workspace/sfia1_pipeline/Script/after-installation.sh
 
 [Install]
 WantedBy=multi-user.target

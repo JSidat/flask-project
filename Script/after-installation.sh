@@ -2,6 +2,6 @@
 
 source ~/.bashrc
 
-source /var/lib/jenkins/workspace/flask-project/venv/bin/activate
+source /var/lib/jenkins/workspace/sfia1_pipeline/venv/bin/activate
 
-python3 /var/lib/jenkins/workspace/flask-project/app.py
+python3 /var/lib/jenkins/workspace/sfia1_pipeline/app.py
