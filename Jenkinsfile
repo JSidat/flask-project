@@ -1,0 +1,22 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Enable all scripts to be executable') {
+            steps {
+                sh 'chmod +x ./Script/*'
+            }
+        }
+        stage('Get the envinronment ready') {
+            steps {
+                sh './Script/installation.sh'
+            }
+        }
+        stage('Run the application') {
+            steps {
+                sh 'sudo systemctl restart flask.service'
+            }
+        }
+    }
+}
+© 2020 GitHub, Inc.
