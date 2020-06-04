@@ -9,6 +9,7 @@ pipeline {
         }
         stage('Get the envinronment ready') {
             steps {
+                sh './Script/before-    installation.sh'
                 sh './Script/installation.sh'
             }
         }
