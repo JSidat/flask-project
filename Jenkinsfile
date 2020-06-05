@@ -13,7 +13,7 @@ pipeline {
                 sh './Script/installation.sh'
             }
         }
-        stage('Run the application') {
+        stage('Run application') {
             steps {
                 sh 'sudo systemctl restart flask.service'
             }
