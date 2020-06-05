@@ -1,4 +1,4 @@
 #!/bin/bash
-. ~/.bashrc
+source ~/.bashrc
 
 docker-compose up -d
