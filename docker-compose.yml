@@ -8,6 +8,6 @@ services:
       published: 5000
       protocol: tcp
     environment:
-      FLASK_PROJECT_DB_URI: ${FLASK_PROJECT_DB_URI}
-      SECRET_KEY: ${SECRET_KEY}
+      FLASKPROJECTDBURI: ${FLASK_PROJECT_DB_URI}
+      SECRETKEY: ${SECRET_KEY}
   
