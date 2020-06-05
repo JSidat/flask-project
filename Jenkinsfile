@@ -7,15 +7,11 @@ pipeline {
                 sh 'chmod +x ./Script/*'
             }
         }
-        stage('Get the envinronment ready') {
-            steps {
-                sh './Script/before-installation.sh'
-                sh './Script/installation.sh'
-            }
-        }
+        
         stage('Run application') {
             steps {
-                sh 'sudo systemctl restart flask.service'
+                sh './Script/environment.sh'
+                
             }
         }
     }
